@@ -1,5 +1,19 @@
-
-
-function buttonPress(){alert("Hello there! This was the results of pressing the button! You get a free cookie! :D")}
-//Java script yes yes very nice mhm interesting
-console.log("An Error AAAAAAAA")
+function buttonPress() {alert("You should not have clicked this")
+alert("Don't click Ok again.")
+alert("Im serious..")
+alert("You are not gonna like it..")
+alert("Bro are you still trying?")
+alert("Im not letting you..")
+alert("...")
+alert("...")
+alert("...")
+alert("...")
+alert("...")
+alert("Stop!")
+alert("Im actually serious, dont!")
+alert("You are not giving up, are you?")
+alert("Do you really want to see?")
+alert("Alright fine but im telling you now its not good..")
+alert("here we go..")
+window.location.href = "https://youtu.be/xvFZjo5PgG0";
+}
