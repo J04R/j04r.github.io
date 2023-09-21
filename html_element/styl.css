@@ -19,3 +19,11 @@ body{
 .buttonPress{
     color: red;
 }
+.click{
+    background-color: red;
+    position: relative; top: 5px; left: 5px; margin-left: 450px; margin-right: 5px;
+    width: 300px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
