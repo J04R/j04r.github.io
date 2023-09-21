@@ -1,11 +1,9 @@
 body{
     background-color: rgb(111, 34, 34);
     color: black;
-} 
+}
 
-p{
-    background-color: rgb(113, 112, 112);
-    padding: 15px;
-    border-radius: 40px;
-    margin-left: 10%;
+table{
+    border: 5px;
+    border-style: dashed;
 }
