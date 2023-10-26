@@ -28,7 +28,6 @@ function projectslink() {
 
 function websiteslink() {
     window.location.href = 'websites/websites.html'
-    window.location.href = 'websites/websites.css'
 }
 
 
