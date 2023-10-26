@@ -36,41 +36,29 @@ function moveDown() {
 }
 window.onload = init;
 
-        function startMove(direction) {
+  function stopMove() {
             if (moveInterval) {
                 clearInterval(moveInterval);
             }
-            moveInterval = setInterval(() => {
-                if (direction === 'left') moveLeft();
-                if (direction === 'up') moveUp();
-                if (direction === 'right') moveRight();
-                if (direction === 'down') moveDown();
-            }, 50); // Adjust the speed as needed
         }
 
-function stopMove() {
-  if (moveInterval) {
-      clearInterval(moveInterval);
-  }
-}
+        document.addEventListener('keydown', (event) => {
+            switch (event.keyCode) {
+                case 65: // A key
+                    startMove('left');
+                    break;
+                case 87: // W key
+                    startMove('up');
+                    break;
+                case 68: // D key
+                    startMove('right');
+                    break;
+                case 83: // S key
+                    startMove('down');
+                    break;
+            }
+        });
 
-document.addEventListener('keydown', (event) => {
-  switch (event.keyCode) {
-      case 65: // A key
-          startMove('left');
-          break;
-      case 87: // W key
-          startMove('up');
-          break;
-      case 68: // D key
-          startMove('right');
-          break;
-      case 83: // S key
-          startMove('down');
-          break;
-  }
-});
-
-document.addEventListener('keyup', (event) => {
-  stopMove();
-});
+        document.addEventListener('keyup', (event) => {
+            stopMove();
+        });
