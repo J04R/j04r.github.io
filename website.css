@@ -124,3 +124,12 @@
 .websiteslink {
     display: none;
 }
+
+/* Add media queries as needed */
+@media only screen and (max-width: 1920px) {
+    /* Additional styles for screens up to 1920px wide */
+}
+
+@media only screen and (max-width: 1200px) {
+    /* Additional styles for screens up to 1200px wide */
+}
