@@ -1,9 +1,8 @@
 .body {
-    text-align: center;
     background-image: url('Audio/1zfb.gif'); 
     background-size: 79em;
     background-position-x: center; 
-    background-position-y: -10em;
+    background-position-y: -40em;
     background-repeat: no-repeat;
 }
 
@@ -13,8 +12,9 @@
 
 .header {
     position: absolute;
-    top: 2.5em;
-    left: 16em;
+    top: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 2;
 }
 
@@ -59,10 +59,11 @@
 .projects {
     opacity: 0;
     position: absolute;
-    top: 19.1em;
-    left: 80em;
-    width: 150px;
-    height: 70px;
+    top: 19.1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 10%;
     cursor: pointer;
 }
 
