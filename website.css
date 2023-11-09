@@ -1,4 +1,4 @@
-body {
+.body {
     text-align: center;
     background-image: url('Audio/1zfb.gif'); 
     background-size: 79em;
@@ -10,6 +10,7 @@ body {
 .container {
     position: relative;
 }
+
 .header {
     position: absolute;
     top: 2.5em;
