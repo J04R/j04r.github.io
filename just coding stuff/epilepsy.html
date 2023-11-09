@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const body = document.body;
+
+    function toggleBackground() {
+      if (body.style.backgroundColor === "black") {
+        body.style.backgroundColor = "white";
+      } else {
+        body.style.backgroundColor = "black";
+      }
+
+      setTimeout(toggleBackground, 20); // Adjust the time interval in milliseconds
+    }
+
+    toggleBackground();
+  </script>
+</body>
+</html>
