@@ -430,29 +430,70 @@ body {
 #image {
     display: none;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
 #image2 {
     display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
 #image3 {
     display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
 #image4 {
     display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
 #image5 {
     display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
 #image6 {
     display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
 #image7 {
     display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
 }
 
