@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+.imgcontainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    width: 1225px;
+    top: 0em;
+}
+
+.imgcontainer img {
+    width: 100%;
+    height: 100%;
+}
+

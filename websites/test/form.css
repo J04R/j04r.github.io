@@ -1,0 +1,449 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'CreepyFont', copperplate gothic;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.welcome h1 {
+    font-size: 40px;
+}
+
+.welcome h3 {
+    font-size: 24px;
+}
+
+.begin-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+}
+
+.question {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.continue-button {
+    display: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.answer {
+    display: none;
+}
+
+.happy {
+    padding: 10px 33.70px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -220%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.excited {
+    padding: 10px 27.50px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -100%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.bored {
+    padding: 10px 30.625px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -220%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.scared {
+    padding: 10px 27.5px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.stressed {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.sad {
+    padding: 10px 40.625px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -280%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.annoyed {
+    padding: 10px 22.5px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -280%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.angry {
+    padding: 10px 31.875px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -100%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.textbox {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arachnophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.claustrophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.aerophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.trypophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.acrophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.algophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.aquaphobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.pyrophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.scopophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.anthropophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.nyctophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.hemophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.entomophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.thalassophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.thanatophobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.atychiphobia {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: copperplate gothic;
+    text-align: center;
+    position: absolute;
+    bottom: -160%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}

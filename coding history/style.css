@@ -1,0 +1,499 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://i.imgflip.com/1oasvr.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+.event {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+
+  .event:hover {
+    background-color: #ff5722;
+  }
+
+  .event span {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    margin-top: 25px; /* Adjust the distance between the ball and the text */
+    color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #eventInfo {
+    position: absolute;
+    display: none; /* Initially hide the element */
+    max-width: 300px; /* Set the maximum width for the eventInfo element */
+    margin: 20px auto;
+    overflow: auto; /* Add a scrollbar if content exceeds the maximum width */
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    top: 200px;
+    left: 37%;
+  }
+
+.timeline {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    height: 4px;
+    /* Increased thickness of the line */
+    background-color: #333;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    /* Increased thickness of the line */
+    background-color: black;
+    top: 0;
+}
+
+.vertical-line {
+    position: absolute;
+    width: 4px;
+    /* Increased thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    top: -10px;
+    /* Adjusted position */
+}
+
+.vertical-line-20 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 20% */
+    top: -10px;
+    /* Adjusted position */
+    left: 20%;
+    /* 20% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.vertical-line-34 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 35.91% */
+    top: -10px;
+    /* Adjusted position */
+    left: 34.55%;
+    /* 35.91% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.vertical-line-45 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 45.91% */
+    top: -10px;
+    /* Adjusted position */
+    left: 45.91%;
+    /* 45.91% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.vertical-line-57 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 45.91% */
+    top: -10px;
+    /* Adjusted position */
+    left: 57.73%;
+    /* 45.91% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.vertical-line-62 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 45.91% */
+    top: -10px;
+    /* Adjusted position */
+    left: 62.27%;
+    /* 45.91% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.vertical-line-79 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 45.91% */
+    top: -10px;
+    /* Adjusted position */
+    left: 79.09%;
+    /* 45.91% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.vertical-line-98 {
+    position: absolute;
+    width: 4px;
+    /* Thickness of the vertical lines */
+    height: 20px;
+    background-color: black;
+    /* Color of the vertical line at 45.91% */
+    top: -10px;
+    /* Adjusted position */
+    left: 98.64%;
+    /* 45.91% mark */
+    transform: translateX(-50%);
+    /* Center the vertical lines */
+}
+
+.year-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: -15px;
+    left: 990px;
+    font-weight: 1000;
+}
+
+.year-texts {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    top: -15px;
+    left: -50px;
+    font-weight: 1000;
+}
+
+.start-line {
+    position: absolute;
+    right: -50;
+}
+
+.end-line {
+    position: absolute;
+    right: 0;
+}
+
+.year-texter {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 18%;
+    font-weight: 800;
+}
+
+.year-text2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 32.75%;
+    font-weight: 800;
+}
+
+.year-text3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 44%;
+    font-weight: 800;
+}
+
+.year-text4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 55.9%;
+    font-weight: 800;
+}
+
+.year-text5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 60.5%;
+    font-weight: 800;
+}
+
+.year-text6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 77.3%;
+    font-weight: 800;
+}
+
+.year-text7 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 16px;
+    color: #000000;
+    top: 25px;
+    left: 96.8%;
+    font-weight: 800;
+}
+
+.telegraph {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 18%;
+    font-weight: 700;
+}
+
+.phone {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 32.75%;
+    font-weight: 700;
+}
+
+.radio {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 44%;
+    font-weight: 700;
+}
+
+.tv {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 56.5%;
+    font-weight: 700;
+}
+
+.tv2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 65px;
+    left: 54.5%;
+    font-weight: 700;
+}
+
+.computer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 60.5%;
+    font-weight: 700;
+}
+
+.internet {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 77.3%;
+    font-weight: 700;
+}
+
+.ai {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: 45px;
+    left: 94.6%;
+    font-weight: 700;
+}
+
+.info1 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 18.75%;
+}
+
+.info2 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 33.3%;
+}
+
+.info3 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 44.61%;
+}
+
+.info4 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 56.5%;
+}
+
+.info5 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 61%;
+}
+
+.info6 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 77.875%;
+}
+
+.info7 {
+    background-color: seagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    font-size: 14px;
+    color: #333;
+    top: -40px;
+    left: 97.5%;
+}
+
+#image {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+
+#image2 {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+
+#image3 {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+
+#image4 {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+
+#image5 {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+
+#image6 {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+
+#image7 {
+    display: none;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: -0%;
+    left: 0%;
+}
+

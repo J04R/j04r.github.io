@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      overflow: hidden;
+      color: white; /* Default text color */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #nightmareText {
+      font-size: 5em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div id="nightmareText">NIGHTMARE</div>
+
+  <script>
+    const body = document.body;
+    const nightmareText = document.getElementById("nightmareText");
+
+    function toggleBackground() {
+      if (body.style.backgroundColor === "black") {
+        body.style.backgroundColor = "white";
+        nightmareText.style.color = "black";
+      } else {
+        body.style.backgroundColor = "black";
+        nightmareText.style.color = "white";
+      }
+
+      setTimeout(toggleBackground, 20); // Adjust the time interval in milliseconds
+    }
+
+    toggleBackground();
+  </script>
+</body>
+</html>

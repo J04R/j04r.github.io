@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chessboard with Pieces and Numbers</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    #chess-board {
+      display: grid;
+      grid-template-columns: repeat(9, 60px);
+      grid-template-rows: repeat(8, 60px);
+      gap: 1px;
+      border: 1px solid #333;
+      background-color: #fff;
+      position: relative;
+    }
+
+.square {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+  border: none; /* Remove the default border */
+  padding: 0;   /* Remove the default padding */
+}
+
+    .invisible-square {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      cursor: pointer;
+      display: flex;
+      justify-content: flex-start;
+      padding: 0px;
+      box-sizing: border-box;
+      font-size: 10px;
+      -webkit-text-fill-color: rgb(255, 255, 255);
+      font-weight: 1000;
+      width: 98%;
+      height: 98%;
+        text-shadow:
+    -1px -1px 0 rgb(0, 0, 0),  
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);
+    font: caption;
+    }
+
+    .label {
+      font-family: 'Arial, sans-serif';
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 170%;
+      position: relative;
+      border: none;
+      padding: 0;
+    }
+
+    .white {
+      background-color: #eee;
+    }
+
+    .black {
+      background-color: #ddd;
+    }
+
+    .piece {
+      width: 100%;
+      height: 100%;
+    }
+
+.coordinates {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+}
+
+    .selected {
+        font-size: 0%;
+        outline: darkgoldenrod;
+        outline-style: solid;
+        outline-offset: -1px;
+        outline-width: 3px;
+        background-color: lemonchiffon;
+        font-display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="chess-board"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const board = document.getElementById('chess-board');
+      const pieces = [
+        'rook_black.png', 'knight_black.png', 'bishop_black.png', 'queen_black.png', 'king_black.png', 'bishop_black.png', 'knight_black.png', 'rook_black.png',
+        'pawn_black.png', 'pawn_black.png', 'pawn_black.png', 'pawn_black.png', 'pawn_black.png', 'pawn_black.png', 'pawn_black.png', 'pawn_black.png',
+        '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '',
+        '', '', '', '', '', '', '', '',
+        'pawn_white.png', 'pawn_white.png', 'pawn_white.png', 'pawn_white.png', 'pawn_white.png', 'pawn_white.png', 'pawn_white.png', 'pawn_white.png',
+        'rook_white.png', 'knight_white.png', 'bishop_white.png', 'queen_white.png', 'king_white.png', 'bishop_white.png', 'knight_white.png', 'rook_white.png',
+      ];
+
+      let selectedSquare = null;
+
+      function drawChessboard() {
+        for (let row = 0; row < 8; row++) {
+          for (let col = 0; col < 9; col++) {
+            if (col === 0) {
+              // Add labels on the side for rows
+              const label = document.createElement('div');
+              label.className = 'label';
+              label.textContent = 8 - row;
+              board.appendChild(label);
+            } else {
+              const square = document.createElement('div');
+              square.className = `square ${((row + col - 1) % 2 === 0) ? 'white' : 'black'}`;
+              
+              const invisibleSquare = document.createElement('div');
+              invisibleSquare.className = 'invisible-square';
+              invisibleSquare.dataset.coordinates = String.fromCharCode('A'.charCodeAt(0) + col - 1) + (8 - row);
+
+              const piece = document.createElement('img');
+              piece.className = 'piece';
+              const pieceName = pieces[row * 8 + col - 1];
+              if (pieceName !== '') {
+                piece.src = getPieceImageUrl(pieceName);
+              }
+
+              const coordinates = document.createElement('div');
+              coordinates.className = 'coordinates';
+              coordinates.textContent = String.fromCharCode('A'.charCodeAt(0) + col - 1) + (8 - row);
+
+              invisibleSquare.appendChild(piece);
+              invisibleSquare.appendChild(coordinates);
+              square.appendChild(invisibleSquare);
+              board.appendChild(square);
+
+              // Add click event listener to each invisible square
+              invisibleSquare.addEventListener('click', () => handleSquareClick(invisibleSquare));
+            }
+          }
+        }
+
+        // Add labels along the bottom for columns
+        const columns = [' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+        for (let col = 0; col < 9; col++) {
+          const label = document.createElement('div');
+          label.className = 'label';
+          label.textContent = columns[col];
+          board.appendChild(label);
+        }
+      }
+
+      function handleSquareClick(square) {
+        if (selectedSquare === null) {
+          // If no square is selected, set this square as the selected square
+          selectedSquare = square;
+          square.classList.add('selected');
+        } else {
+          // If a square is already selected, move the piece and reset the selected square
+          const sourceCoordinates = selectedSquare.dataset.coordinates;
+          const targetCoordinates = square.dataset.coordinates;
+          const sourceIndex = coordinatesToIndex(sourceCoordinates);
+          const targetIndex = coordinatesToIndex(targetCoordinates);
+
+          // Swap the pieces
+          const temp = pieces[sourceIndex];
+          pieces[sourceIndex] = pieces[targetIndex];
+          pieces[targetIndex] = temp;
+
+          // Redraw the board
+          board.innerHTML = '';
+          drawChessboard();
+
+          // Reset selected square
+          selectedSquare = null;
+        }
+      }
+
+      function coordinatesToIndex(coordinates) {
+        const col = coordinates.charCodeAt(0) - 'A'.charCodeAt(0);
+        const row = 8 - parseInt(coordinates.charAt(1), 10);
+        return row * 8 + col;
+      }
+
+      function getPieceImageUrl(pieceName) {
+        // Replace this switch with your actual image URLs
+        switch(pieceName) {
+          case 'rook_black.png': return 'url_to_rook_black_image';
+          case 'knight_black.png': return 'url_to_knight_black_image';
+          case 'bishop_black.png': return 'url_to_bishop_black_image';
+          case 'queen_black.png': return 'url_to_queen_black_image';
+          case 'king_black.png': return 'url_to_king_black_image';
+          case 'pawn_black.png': return 'url_to_pawn_black_image';
+          case 'rook_white.png': return 'url_to_rook_white_image';
+          case 'knight_white.png': return 'url_to_knight_white_image';
+          case 'bishop_white.png': return 'url_to_bishop_white_image';
+          case 'queen_white.png': return 'url_to_queen_white_image';
+          case 'king_white.png': return 'Audio/rube.png';
+          case 'pawn_white.png': return 'url_to_pawn_white_image';
+          default: return '';
+        }
+      }
+
+      drawChessboard();
+    });
+  </script>
+</body>
+</html>
