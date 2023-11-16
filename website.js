@@ -26,13 +26,15 @@ function projectslink() {
     window.location.href = 'https://github.com/J04R?tab=repositories'
 }
 
-function websiteslink() {
-    window.location.href = 'websites/websites.html'
+function twitterLink() {
+    window.location.href = 'https://twitter.com/Scriptineer'
 }
 
+function websiteslink() {
+    window.location.href = 'websites.html'
+}
 
-
-
-
-
+function darkenImage(element) {
+    element.classList.add('darken');
+}
 

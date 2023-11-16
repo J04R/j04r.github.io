@@ -1,0 +1,34 @@
+body {
+    cursor: default;
+    display: flex;
+    background-image: url('Audio/pixil-gif-drawing\ \(2\).gif'); /* Add the path to your GIF */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.audioman {
+    display: none;
+}
+
+.header1 {
+    cursor: pointer;
+    position: absolute; /* Set both to absolute positioning */
+    top: 25%; /* Adjust the top position as needed */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.darken {
+    filter: brightness(80%);
+}
+
+.back {
+    position: absolute;
+    align-items: start start;
+    margin-right: 80%;
+}
