@@ -1,9 +1,9 @@
-.body {
-    background-image: url('Audio/1zfb.gif'); 
-    background-size: 79em;
-    background-position-x: center; 
-    background-position-y: -40em;
-    background-repeat: no-repeat;
+body {
+    display: flex;
+    background-image: url('Audio/1zfb.gif'); /* Add the path to your GIF */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -11,110 +11,7 @@
 }
 
 .header {
-    position: absolute;
-    top: 2.5%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-}
-
-.header2 {
-    display: none;
-    position: absolute;
-    top: 0em;
-    left: 15em;
-    z-index: 2;
-}
-
-.youtube {
-    opacity: 0;
-    position: absolute;
-    top: 19.1em;
-    left: 1.75em;
-    width: 150px;
-    height: 70px;
-    cursor: pointer;
-}
-
-.steam {
-    opacity: 0;
-    position: absolute;
-    top: 35.9em;
-    left: 1.75em;
-    width: 150px;
-    height: 70px;
-    cursor: pointer;
-}
-
-.reddit {
-    opacity: 0;
-    position: absolute;
-    top: 27.5em;
-    left: 1.75em;
-    width: 150px;
-    height: 70px;
-    cursor: pointer;
-}
-
-.projects {
-    opacity: 0;
-    position: absolute;
-    top: 19.1%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20%;
-    height: 10%;
-    cursor: pointer;
-}
-
-.websites {
-    opacity: 0;
-    position: absolute;
-    top: 27.5em;
-    left: 80em;
-    width: 150px;
-    height: 70px;
-    cursor: pointer;
-}
-
-.header3 {
-    position: absolute;
-    top: 15em;
-    left: 64.8em;
-    width: 200px;
-    height: 100px;
-}
-
-.header7 {
-    position: absolute;
-    top: 22em;
-    left: 0.2em;
-    width: 150px;
-    height: 70px;
-}
-
-.header5 {
-    position: absolute;
-    top: 29em;
-    left: 0.2em;
-    width: 150px;
-    height: 70px;
-}
-
-.header6 {
-    position: absolute;
-    top: 15em;
-    left: 0.2em;
-    width: 150px;
-    height: 70px;
-}
-
-.header4 {
-    position: absolute;
-    top: 22em;
-    left: 64.8em;
-    width: 150px;
-    height: 70px;
+    justify-content: center ;
 }
 
 .audioman {
@@ -125,11 +22,22 @@
     display: none;
 }
 
-/* Add media queries as needed */
-@media only screen and (max-width: 1920px) {
-    /* Additional styles for screens up to 1920px wide */
+.main-left-align,
+.main-right-align {
+    position: absolute; /* Set both to absolute positioning */
+    top: 50%; /* Adjust the top position as needed */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-@media only screen and (max-width: 1200px) {
-    /* Additional styles for screens up to 1200px wide */
+.main-left-align {
+    left: 0; /* Align to the left */
+    align-items: flex-start;
+}
+
+.main-right-align {
+    right: 0; /* Align to the right */
+    align-items: flex-end;
 }
