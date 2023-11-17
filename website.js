@@ -11,23 +11,23 @@ navigator.mediaDevices.getUserMedia({ audio: true })
 });
 
 function youtubelink() {
-    window.location.href = 'https://www.youtube.com/channel/UCObs67mc5ReTaED39vs6u7w'
+    window.open("https://www.youtube.com/channel/UCObs67mc5ReTaED39vs6u7w", "_blank");
 }
 
 function redditlink() {
-    window.location.href = 'https://www.reddit.com/user/JO4R_/'
+    window.open("https://www.reddit.com/user/JO4R_/", "_blank");
 }
 
 function steamlink() {
-    window.location.href = 'https://steamcommunity.com/profiles/76561198356269821'
+    window.open("https://steamcommunity.com/profiles/76561198356269821", "_blank");
 }
 
 function projectslink() {
-    window.location.href = 'https://github.com/J04R?tab=repositories'
+    window.open("https://github.com/J04R?tab=repositories", "_blank");
 }
 
 function twitterLink() {
-    window.location.href = 'https://twitter.com/Scriptineer'
+    window.open("https://twitter.com/Scriptineer", "_blamk");
 }
 
 function websiteslink() {

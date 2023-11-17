@@ -1,9 +1,9 @@
 function thetest() {
-    window.location.href = 'test/test.html'
+    window.open("test/test.html", "_blank");
 }
 
 function dvdscr() {
-    window.location.href = 'websites/dvd_scr/dvdscr.html'
+    window.open("dvdscr.html", "_blank");
 }
 
 function darkenImage(element) {
