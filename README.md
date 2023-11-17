@@ -19,7 +19,7 @@ Fixed issue not being able to click on DVDSCR.
 ## Credits
 
 Music: 
-
-SaltyBanana - [spamton] Chill Remix > https://www.youtube.com/watch?v=T005czdQ9Oo
-
-temtorrance - V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
+- **SaltyBanana:**
+  [spamton] Chill Remix > https://www.youtube.com/watch?v=T005czdQ9Oo
+- **temtorrance:**
+V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
