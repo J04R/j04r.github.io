@@ -3,7 +3,7 @@ function thetest() {
 }
 
 function dvdscr() {
-    window.location.href = 'dvd_scr/dvdscr.html'
+    window.location.href = 'websites/dvd_scr/dvdscr.html'
 }
 
 function darkenImage(element) {
