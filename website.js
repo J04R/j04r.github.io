@@ -38,3 +38,40 @@ function darkenImage(element) {
     element.classList.add('darken');
 }
 
+function resetImage(element) {
+    element.classList.remove('darken');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the popup and button elements
+    var popup = document.getElementById('audioPermissionPopup');
+    var allowAudioButton = document.getElementById('allowAudioButton');
+
+    // Check if the user has muted their audio
+    var isAudioMuted = isAudioContextMuted();
+
+    // Check if the user has already given permission or if audio is not muted
+    if (!localStorage.getItem('audioPermission') && isAudioMuted) {
+        // If not, show the popup
+        popup.style.display = 'block';
+
+        // Add event listener to the "Allow Audio" button
+        allowAudioButton.addEventListener('click', function () {
+            // Set a flag indicating that the user has given permission
+            localStorage.setItem('audioPermission', 'true');
+
+            // Hide the popup
+            popup.style.display = 'none';
+        });
+    }
+});
+
+// Function to check if the audio context is muted
+function isAudioContextMuted() {
+    var audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+    // Check if the audio context is in a muted state
+    return audioContext.state === 'suspended';
+}
+
+
