@@ -10,13 +10,13 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE). Plea
 
 ### Version 1.1.2
 
-####Added Special Thanks
+- *Added Special Thanks*
  - A section to thank everyone who has helped me achieve this.
 
-####Added ???
+- *Added ???*
  - ?????????
 
-####Fixed redirect tab problem
+- *Fixed redirect tab problem*
  - Now whenever you click on a tab it opens a new tab instead of using the current tab.
 
 ## Credits
