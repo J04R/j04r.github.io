@@ -1,3 +1,11 @@
+var audio = document.getElementById('audioPlayer');
+
+// Check if autoplay is supported
+var isAutoplaySupported = audio.autoplay !== undefined;
+
+if (isAutoplaySupported) {
+  audio.play();
+}
 
 function youtubelink() {
     window.open("https://www.youtube.com/channel/UCObs67mc5ReTaED39vs6u7w", "_blank");

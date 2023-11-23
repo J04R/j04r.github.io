@@ -117,6 +117,14 @@
         alt="" onclick="back()" style="width: 100px; height: 50px;">
         <img class="cat" id="cat" src="audio/4x.gif" alt="">
     <script>
+          var audio = document.getElementById('audioPlayer');
+
+// Check if autoplay is supported
+var isAutoplaySupported = audio.autoplay !== undefined;
+
+if (isAutoplaySupported) {
+  audio.play();
+}
 
         function darkenImage(element) {
             element.classList.add('darken');
