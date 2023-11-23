@@ -11,7 +11,7 @@ function youtubelink() {
 }
 
 function redditlink() {
-    window.open("https://www.reddit.com/user/JO4R_/", "_blank");
+    window.open("https://www.reddit.com/user/_2Scriptical4You/", "_blank");
 }
 
 function steamlink() {
