@@ -1,10 +1,3 @@
-navigator.mediaDevices.getUserMedia({ audio: true })
-    .then(function (stream) {
-        // User allowed audio access, play background music
-        var audio = new Audio("your-audio-file.mp3");
-        audio.loop = true;
-        audio.play();
-    })
 
 function youtubelink() {
     window.open("https://www.youtube.com/channel/UCObs67mc5ReTaED39vs6u7w", "_blank");
