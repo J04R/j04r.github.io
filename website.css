@@ -102,10 +102,10 @@ body {
 
 /* Apply responsive styles to images within .main-left-align */
 .main-left-align img, .main-right-align img {
-    width: 30%;
-    height: 30%;
+    width: 10%;
+    height: 10%;
     max-width: 100%;
-    max-height: 1500px;
+    max-height: 100px;
     transition: width 0.5s ease, height 0.5s ease; /* Add a smooth transition effect for both width and height */
 }
 
@@ -122,14 +122,93 @@ body {
     filter: brightness(60%);
 }
 
-.special {
+.thankslink {
+    max-height: 15%;
+    max-width: 15%;
     opacity: 100%;
     height: auto;
-    width: 120px;
+    width: auto;
     position: absolute;
     justify-content: flex-end;
     display: flex;
-    bottom: 0;
+    bottom: 75%;
     left: 100;
     cursor: pointer;
+    transition: width 0.5s ease, height 0.5s ease;
 }
+
+@media (max-height: 1000px) {
+    #special {
+        max-width: 25%;
+        bottom:  85%;
+    }
+}
+
+@media (max-height:500px) {
+    #special {
+        width: 20%;
+        max-width: 25%;
+        bottom: 70;
+    }
+}
+
+@media (max-height:400px) {
+    #special {
+        width: 20%;
+        max-width: 25%;
+        bottom: 80%;
+    }
+}
+
+@media (max-height:300px) {
+    #special {
+        width: 20%;
+        max-width: 25%;
+        bottom: 70%;
+    }
+}
+
+@media (max-height:200px) {
+    #special {
+        width: 15%;
+        max-width: 20%;
+        bottom: 70%;
+    }
+}
+
+@media (max-width:10000px) {
+    #special {
+        top: 20%;
+    }
+}
+
+@media (max-height:500px) {
+    #main-left-align, #main-right-align {
+        width: 20%;
+        height: 20%
+    }
+}
+
+@media (max-height:250px) {
+    #main-left-align, #main-right-align {
+        width: 15%;
+        height: 15%
+    }
+}
+
+@media (max-width: 10000px) {
+    #special {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,18 +25,20 @@
       position: relative;
     }
 
-.square {
-  width: 60px;
-  height: 60px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  position: relative;
-  border: none; /* Remove the default border */
-  padding: 0;   /* Remove the default padding */
-}
+    .square {
+      width: 60px;
+      height: 60px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      position: relative;
+      border: none;
+      /* Remove the default border */
+      padding: 0;
+      /* Remove the default padding */
+    }
 
     .invisible-square {
       position: absolute;
@@ -54,12 +57,12 @@
       font-weight: 1000;
       width: 98%;
       height: 98%;
-        text-shadow:
-    -1px -1px 0 rgb(0, 0, 0),  
-    1px -1px 0 rgb(0, 0, 0),
-    -1px 1px 0 rgb(0, 0, 0),
-    1px 1px 0 rgb(0, 0, 0);
-    font: caption;
+      text-shadow:
+        -1px -1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 rgb(0, 0, 0),
+        1px 1px 0 rgb(0, 0, 0);
+      font: caption;
     }
 
     .label {
@@ -87,24 +90,25 @@
       height: 100%;
     }
 
-.coordinates {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 5px;
-}
+    .coordinates {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 5px;
+    }
 
     .selected {
-        font-size: 0%;
-        outline: darkgoldenrod;
-        outline-style: solid;
-        outline-offset: -1px;
-        outline-width: 3px;
-        background-color: lemonchiffon;
-        font-display: none;
+      font-size: 0%;
+      outline: darkgoldenrod;
+      outline-style: solid;
+      outline-offset: -1px;
+      outline-width: 3px;
+      background-color: lemonchiffon;
+      font-display: none;
     }
   </style>
 </head>
+
 <body>
   <div id="chess-board"></div>
 
@@ -136,7 +140,7 @@
             } else {
               const square = document.createElement('div');
               square.className = `square ${((row + col - 1) % 2 === 0) ? 'white' : 'black'}`;
-              
+
               const invisibleSquare = document.createElement('div');
               invisibleSquare.className = 'invisible-square';
               invisibleSquare.dataset.coordinates = String.fromCharCode('A'.charCodeAt(0) + col - 1) + (8 - row);
@@ -207,7 +211,7 @@
 
       function getPieceImageUrl(pieceName) {
         // Replace this switch with your actual image URLs
-        switch(pieceName) {
+        switch (pieceName) {
           case 'rook_black.png': return 'url_to_rook_black_image';
           case 'knight_black.png': return 'url_to_knight_black_image';
           case 'bishop_black.png': return 'url_to_bishop_black_image';
@@ -228,4 +232,5 @@
     });
   </script>
 </body>
+
 </html>

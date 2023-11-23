@@ -10,7 +10,7 @@ function updateText() {
 
     setInterval(function () {
         // Your array of texts
-        const texts = ["Visste du att chile är en av de svåraste länderna att spela som i supremacy 1914?", "Är du en finurlig vit pojke? Är du get med såsen?", "mama", "text 4", "text 5", "text 6", "text 7", "text 8", "text 9",];
+        const texts = ["Visste du att chile är en av de svåraste länderna att spela som i supremacy 1914? - Ruben", "Du gjorde mig nästan till rostbiff! - Ruben ", "Jag gillar penisar. - Ruben", " - Ruben", "Man måste tänka på tanken eftersom det är tanken som räknas när man tankar. - Ruben", "text 6", "text 7", "text 8", "text 9",];
 
         // Get a random text from the array
         const newText = texts[Math.floor(Math.random() * texts.length)];
@@ -18,7 +18,7 @@ function updateText() {
         // Update the text content
         dynamicTextElement.textContent = newText;
 
-                countdown = 5;
+        countdown = 5;
 
         // Save the current text to localStorage
         localStorage.setItem('dynamicText', newText);
@@ -27,3 +27,16 @@ function updateText() {
 
 // Call the function to initialize the text
 updateText();
+
+function darkenImage(element) {
+    element.classList.add('darken');
+}
+
+function back() {
+    window.location.href = 'index.html'
+}
+
+// Function to remove "darken" class on mouseout
+function resetImage(element) {
+    element.classList.remove('darken');
+}

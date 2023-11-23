@@ -19,7 +19,10 @@ Fixed issue not being able to click on DVDSCR.
 ## Credits
 
 Music: 
-- **SaltyBanana:**
+- **SaltyBanana & Toby Fox:**
   [spamton] Chill Remix > https://www.youtube.com/watch?v=T005czdQ9Oo
-- **temtorrance:**
+- **temtorrance & Toby Fox:**
 V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
+- **Toby Fox**
+Undertale OST - Menu (full) > https://youtu.be/J_hJDitrh8M?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
+Undertale OST - Home > https://youtu.be/q2IYscs_8uY?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc

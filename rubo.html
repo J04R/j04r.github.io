@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,19 @@
     <link rel="icon" href="Audio/3518-wawa-cat.gif" type="image/x-icon">
     <link rel="stylesheet" href="styl.css">
 </head>
+
 <body onload="loaded()">
+    <div class="container">
+        <audio controls autoplay preload="auto" loop volume="0.1" class="audioman" id="audioPlayer">
+           <source src="Audio/Undertale OST_ 012 - Home.mp3" type="audio/mp3">
+        </audio>
+     </div>
+
     <img src="Audio/eg5zwl9ggr781.png" alt="" class="image">
     <div class="textbox" id="dynamicText"></div>
     <script src="alt.js"></script>
+    <img class="back clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="Audio/back.png"
+        alt="" onclick="back()" style="width: 100px; height: 50px;">
 </body>
+
 </html>

@@ -21,7 +21,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 2px; /* Increased the gap between columns */
+    gap: 2px;
+    /* Increased the gap between columns */
 }
 
 .darken {
@@ -31,7 +32,8 @@ body {
 .back {
     position: absolute;
     align-items: start start;
-    margin-right: 20px; /* Increased the margin between the button and the column */
+    margin-right: 20px;
+    /* Increased the margin between the button and the column */
 }
 
 /* Media queries for smaller screens */

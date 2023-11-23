@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A thank you!</title>
     <link rel="shortcut icon" href="Audio/widecat.png" type="image/x-icon">
+    <div class="container">
+        <audio controls autoplay preload="auto" loop volume="0.1" class="audioman" id="audioPlayer">
+           <source src="Audio/Undertale OST_ 093 - Menu (Full).mp3" type="audio/mp3">
+        </audio>
+     </div>
 </head>
+
 <body>
     <style>
         body {
-    cursor: default;
-    background-image: url('Audio/butter-dog.gif'); /* Add the path to your GIF */
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
+            cursor: default;
+            background-image: url('Audio/ezgif-1-3e81517b1f.gif');
+            /* Add the path to your GIF */
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
 
-.thanks {
-    margin-top: 5%;
-    margin-right: 60%;
-    padding: 4px;
-    border: 2px solid rgb(93, 93, 93);
-    color: rgb(93, 93, 93);
-    border-radius: 20px;
-    background-color: white;
-    font-size: 20px;
-}
+        .audioman {
+            display: none;
+        }
 
+        .thanks {
+            margin-top: 3%;
+            margin-right: 70%;
+            padding: 1px;
+            border: 2px solid rgb(41, 40, 40);
+            color: rgb(0, 0, 0);
+            border-radius: 20px;
+            background-color: rgb(106, 106, 106);
+            font-size: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .darken {
+            filter: brightness(80%);
+        }
+
+        .back {
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .cat {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 20%;
+        }
     </style>
     <div class="thanks">
         <h1>Special thanks to everyone who supports me and my career choices!</h1>
@@ -47,5 +78,25 @@
         <h3>Elias</h3>
         <h3>Jens</h3>
     </div>
+
+    <img class="back clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="Audio/back.png"
+        alt="" onclick="back()" style="width: 100px; height: 50px;">
+        <img class="cat" src="audio/4x.gif" alt="">
+    <script>
+
+        function darkenImage(element) {
+            element.classList.add('darken');
+        }
+
+        function back() {
+            window.location.href = 'index.html'
+        }
+
+        // Function to remove "darken" class on mouseout
+        function resetImage(element) {
+            element.classList.remove('darken');
+        }
+    </script>
 </body>
+
 </html>
