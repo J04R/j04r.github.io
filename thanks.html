@@ -31,8 +31,8 @@
 
         .thanks {
             margin-top: 3%;
-            margin-right: 70%;
-            padding: 1px;
+            margin-right: 60%;
+            padding: 4px;
             border: 2px solid rgb(41, 40, 40);
             color: rgb(0, 0, 0);
             border-radius: 20px;
@@ -58,8 +58,39 @@
             right: 0;
             width: 20%;
         }
+
+        @media (min-width: 1000px) {
+            #thanks {
+            font-size: 20px;
+        }
+        #back {
+            width: 50%;
+            max-width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        #cat {
+            width: 30%;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 700px) {
+            #thanks {
+            font-size: 7px;
+        }
+    }
+
+    @media (max-width: 300px) {
+            #thanks {
+            font-size: 5px;
+        }
+    }
     </style>
-    <div class="thanks">
+    <div class="thanks" id="thanks">
         <h1>Special thanks to everyone who supports me and my career choices!</h1>
         <h2>Friends:</h2>
         <h3>Ruben</h3>
@@ -80,9 +111,9 @@
         <h3>Jens</h3>
     </div>
 
-    <img class="back clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="Audio/back.png"
+    <img class="back clickable" id="back" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="Audio/back.png"
         alt="" onclick="back()" style="width: 100px; height: 50px;">
-        <img class="cat" src="audio/4x.gif" alt="">
+        <img class="cat" id="cat" src="audio/4x.gif" alt="">
     <script>
 
         function darkenImage(element) {
