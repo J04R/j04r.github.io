@@ -4,7 +4,7 @@ My main website which lets me and others access everything I upload.
 
 ## License
 
-This project is licensed under the [J04R Code Usage License v1.0](LICENSE). Please review the license file for terms and conditions.
+This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). Please review the license file for terms and conditions.
 
 ## Updates
 
