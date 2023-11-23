@@ -27,7 +27,7 @@ function twitterLink() {
 }
 
 function websiteslink() {
-    window.location.href = 'websites.html';
+    window.location.href = 'websites.html', '_self';
 }
 
 function darkenImage(element) {
