@@ -30,12 +30,12 @@ function websiteslink() {
     window.open("websites.html", "_self");
 }
 
-function darkenImage(element) {
-    element.classList.add('darken');
+function thankslink() {
+    window.open("thanks.html", "_self");
 }
 
-function resetImage(element) {
-    element.classList.remove('darken');
+function darkenImage(element) {
+    element.classList.add('darken');
 }
 
 function resetImage(element) {

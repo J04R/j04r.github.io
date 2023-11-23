@@ -13,10 +13,6 @@ body {
     display: none;
 }
 
-.websiteslink {
-    display: none;
-}
-
 .main-left-align,
 .main-right-align {
     position: absolute; /* Set both to absolute positioning */
@@ -126,19 +122,14 @@ body {
     filter: brightness(60%);
 }
 
-
-/* Add your other styles here */
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+.special {
+    opacity: 100%;
+    height: auto;
+    width: 120px;
+    position: absolute;
+    justify-content: flex-end;
+    display: flex;
+    bottom: 0;
+    left: 100;
+    cursor: pointer;
 }
-
