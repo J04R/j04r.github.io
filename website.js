@@ -23,7 +23,7 @@ function projectslink() {
 }
 
 function twitterLink() {
-    window.open("https://twitter.com/Scriptineer", "_blank");
+    window.location.href = 'https://twitter.com/Scriptineer'
 }
 
 function websiteslink() {
@@ -32,6 +32,10 @@ function websiteslink() {
 
 function darkenImage(element) {
     element.classList.add('darken');
+}
+
+function resetImage(element) {
+    element.classList.remove('darken');
 }
 
 function resetImage(element) {

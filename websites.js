@@ -1,5 +1,6 @@
 function thetest() {
     window.open("test/test.html", "_blank")
+    window.open("test/test.html", "_blank");
 }
 
 function dvdscr() {
