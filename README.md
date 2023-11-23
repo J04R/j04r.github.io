@@ -13,7 +13,7 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE). Plea
 - *-Added Special Thanks-*
  - A section to thank everyone who has helped me achieve this.
 
-- *-Added ???-*
+- ***-Added ???-***
  - ?????????
 
 - *-Fixed redirect tab problem-*
