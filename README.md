@@ -8,13 +8,16 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE). Plea
 
 ## Updates
 
-### Version 1.0.5
+### Version 1.1.2
 
-- **Fixed Resolution for `websites.html`:**
-  FIxed the resolution to work for more devices with different resolution.
+- **Added Special Thanks**
+Added a Special thanks section to thank everyone who has helped me achieve this.
 
-- **DVDSCR Now Playable:**
-Fixed issue not being able to click on DVDSCR.
+- **Added ???**
+Added ???.
+
+- **Fixed redirect tab problem**
+Now whenever you click on a tab it opens a new tab instead of using the current tab.
 
 ## Credits
 
@@ -23,6 +26,6 @@ Music:
   [spamton] Chill Remix > https://www.youtube.com/watch?v=T005czdQ9Oo
 - **temtorrance & Toby Fox:**
 V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
-- **Toby Fox**
+- **Toby Fox:**
 Undertale OST - Menu (full) > https://youtu.be/J_hJDitrh8M?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
 Undertale OST - Home > https://youtu.be/q2IYscs_8uY?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
