@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVD Screensaver Clone</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0);
+        }
+
+        #dvd-logo {
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #dvd-logo img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="dvd-logo">
+        <img src="Audi/DVD_logo.svg.png" alt="DVD Logo">
+    </div>
+
+    <script>
+        const dvdLogo = document.getElementById('dvd-logo');
+        let x = 0;
+        let y = 0;
+        let xDirection = 1;
+        let yDirection = 1;
+
+        function getRandomColor() {
+            const colors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple'];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function changeBackgroundColor() {
+            dvdLogo.style.backgroundColor = getRandomColor();
+        }
+
+        function moveDVDLogo() {
+            x += 3 * xDirection;
+            y += 3 * yDirection;
+
+            dvdLogo.style.transform = `translate(${x}px, ${y}px)`;
+
+            // Check for collisions with the screen edges
+            if (x + dvdLogo.clientWidth >= window.innerWidth || x <= 0) {
+                xDirection *= -1;
+                changeBackgroundColor();
+            }
+
+            if (y + dvdLogo.clientHeight >= window.innerHeight || y <= 0) {
+                yDirection *= -1;
+                changeBackgroundColor();
+            }
+
+            requestAnimationFrame(moveDVDLogo);
+        }
+
+        // Start changing the background color and animation
+        changeBackgroundColor();
+        moveDVDLogo();
+    </script>
+</body>
+</html>

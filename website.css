@@ -6,6 +6,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     justify-content: center;
+    margin: 0;
 }
 
 .audioman {
@@ -50,12 +51,44 @@ body {
     transition: width 0.5s ease, height 0.5s ease; /* Add a smooth transition effect */
 }
 
-@media (max-width: 600px), (max-height: 400px) {
+@media (max-width: 800px) {
     #responsiveImage {
-        width: 50%;
+        width: 80%;
+        max-width: 80%;
         height: auto;
+        left: 80px;
+        position: fixed;
     }
 }
+
+@media (max-width: 700px) {
+    #responsiveImage {
+        width: 70%;
+        max-width: 70%;
+        height: auto;
+        left: 70px;
+        position: fixed;
+    }
+}
+
+@media (max-width: 600px) {
+    #responsiveImage {
+        width: 60%;
+        height: auto;
+        left: 60px;
+        position: fixed;
+    }
+}
+
+@media (max-width: 500px) {
+    #responsiveImage {
+        max-width: 70%;
+        height: auto;
+        left: 50px;
+        position: fixed;
+    }
+}
+
 
 @media (max-width: 400px), (max-height: 300px) {
     #responsiveImage {
@@ -79,3 +112,17 @@ body {
     max-height: 1500px;
     transition: width 0.5s ease, height 0.5s ease; /* Add a smooth transition effect for both width and height */
 }
+
+.secret {
+    opacity: 90%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    justify-content: flex-end;
+    display: flex;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
