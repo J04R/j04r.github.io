@@ -8,17 +8,16 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 
 ## Updates
 
-### Version 1.1.2
+### Version 1.2.0
 
 #### -Added Special Thanks-
-- A section to thank everyone who has helped me achieve this.
+- A section with information about me
 
-#### -Added ???-
-- ?????????
+#### -Added Bug reporting and Suggestions-
+- Inside of the about page there are two links to two google docs where you can report a bugor suggest to add something 
 
-#### -Fixed redirect tab problem-**
-- Now whenever you click on a tab it opens a new tab instead of using the current tab.
-
+#### -Moved all social media-
+- All social media hasbeen moved inside of a file called media
 ## Credits
 
 ### Music:
@@ -28,4 +27,6 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
  - V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
 #### -Toby Fox:-
  - Undertale OST - Menu (full) > https://youtu.be/J_hJDitrh8M?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
- - Undertale OST - Home > https://youtu.be/q2IYscs_8uY?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
+ - Undertale OST - Home > https://youtu.be/q2IYscs_8uY?
+ list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
+ - Undertale OST - Dating start! > https://youtu.be/ldY0LriMc6U?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc

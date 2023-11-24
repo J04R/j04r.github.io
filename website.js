@@ -11,12 +11,12 @@ function youtubelink() {
     window.open("https://www.youtube.com/channel/UCObs67mc5ReTaED39vs6u7w", "_blank");
 }
 
-function redditlink() {
-    window.open("https://www.reddit.com/user/_2Scriptical4You/", "_blank");
+function aboutlink() {
+    window.open("about.html", "_self");
 }
 
-function steamlink() {
-    window.open("https://steamcommunity.com/profiles/76561198356269821", "_blank");
+function medialink() {
+    window.open("media.html", "_self");
 }
 
 function projectslink() {

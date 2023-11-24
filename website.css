@@ -122,66 +122,6 @@ body {
     filter: brightness(60%);
 }
 
-.thankslink {
-    max-height: 15%;
-    max-width: 15%;
-    opacity: 100%;
-    height: auto;
-    width: auto;
-    position: absolute;
-    justify-content: flex-end;
-    display: flex;
-    bottom: 75%;
-    left: 100;
-    cursor: pointer;
-    transition: width 0.5s ease, height 0.5s ease;
-}
-
-@media (max-height: 1000px) {
-    #special {
-        max-width: 25%;
-        bottom:  85%;
-    }
-}
-
-@media (max-height:500px) {
-    #special {
-        width: 20%;
-        max-width: 25%;
-        bottom: 70;
-    }
-}
-
-@media (max-height:400px) {
-    #special {
-        width: 20%;
-        max-width: 25%;
-        bottom: 80%;
-    }
-}
-
-@media (max-height:300px) {
-    #special {
-        width: 20%;
-        max-width: 25%;
-        bottom: 70%;
-    }
-}
-
-@media (max-height:200px) {
-    #special {
-        width: 15%;
-        max-width: 20%;
-        bottom: 70%;
-    }
-}
-
-@media (max-width:10000px) {
-    #special {
-        top: 20%;
-    }
-}
-
 @media (max-height:500px) {
     #main-left-align, #main-right-align {
         width: 20%;
