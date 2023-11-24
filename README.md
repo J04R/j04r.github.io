@@ -21,7 +21,7 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 ## Credits
 
 ### QOTD:
-#### -sirruwijo:>
+#### -sirruwijo:-
 - Steam > https://steamcommunity.com/profiles/76561199036038172/
 
 ### Music:
