@@ -136,13 +136,6 @@ body {
     }
 }
 
-@media (max-width: 10000px) {
-    #special {
-        width: auto;
-        height: auto;
-    }
-}
-
 
 
 
