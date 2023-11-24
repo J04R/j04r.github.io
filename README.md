@@ -20,7 +20,7 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 - All social media has been moved inside of a file called media
 ## Credits
 
-###QOTD>
+### QOTD:
 #### -sirruwijo:>
 - Steam > https://steamcommunity.com/profiles/76561199036038172/
 
