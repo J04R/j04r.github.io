@@ -11,7 +11,7 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 ### Version 1.2.0
 
 #### -Added Special Thanks-
-- A section with information about me
+- A section with information about my life
 
 #### -Added Bug reporting and Suggestions-
 - Inside of the about page there are two links to two google docs where you can report a bug or suggest to add something 
@@ -20,6 +20,7 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 - All social media has been moved inside of a file called media
 ## Credits
 
+<<<<<<< HEAD
 ### Monkey:
 #### -ThomasValentine:-
 - Roblox game: https://www.roblox.com/games/8040263401/Saumer-Simulator 
@@ -27,6 +28,11 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 ### QOTD:
 #### -sirruwijo:-
 - Steam: https://steamcommunity.com/profiles/76561199036038172/
+=======
+### QOTD:
+#### -sirruwijo:-
+- Steam > https://steamcommunity.com/profiles/76561199036038172/
+>>>>>>> 3989cc2069011d27e56f6264e9925f18b19e95a5
 
 ### Music:
 #### -SaltyBanana & Toby Fox:-
@@ -35,6 +41,5 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
  - V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
 #### -Toby Fox:-
  - Undertale OST - Menu (full) > https://youtu.be/J_hJDitrh8M?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
- - Undertale OST - Home > https://youtu.be/q2IYscs_8uY?
- list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
+ - Undertale OST - Home > https://youtu.be/q2IYscs_8uY?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
  - Undertale OST - Dating start! > https://youtu.be/ldY0LriMc6U?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
