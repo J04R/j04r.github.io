@@ -3,21 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="canvas.css">
-    <title>Pixel Canvas</title>
+    <title>Transparent Canvas Drawing with Color Selector</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+        }
+
+        canvas {
+            flex: 1;
+            background-color: transparent;
+            border: 1px solid #000; /* Add a border for better visibility */
+        }
+
+        #menu {
+            width: 80px;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="menu">
-        <input type="color" id="colorSelector" value="#000000">
-        <button id="eraserButton">Eraser</button>
+    <div id="menu">
+        <label for="colorPicker">Color:</label>
+        <input type="color" id="colorPicker" value="#000000">
     </div>
-    <div class="options">
-        <label for="brushSize">Brush Size:</label>
-        <input type="range" id="brushSize" min="1" max="50" value="5">
-        <label for="opacity">Opacity:</label>
-        <input type="range" id="opacity" min="0" max="1" step="0.1" value="1">
-    </div>
-    <canvas id="pixelCanvas" width="800" height="600"></canvas>
-    <script src="script.js"></script>
+
+    <canvas id="drawingCanvas"></canvas>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const canvas = document.getElementById("drawingCanvas");
+            const context = canvas.getContext("2d");
+            const colorPicker = document.getElementById("colorPicker");
+
+            // Set canvas size
+            canvas.width = window.innerWidth - 80; // Adjust canvas width for the menu
+            canvas.height = window.innerHeight;
+
+            // Set up drawing styles
+            context.lineWidth = 5;
+            context.lineCap = "round";
+            context.strokeStyle = colorPicker.value;
+
+            let drawing = false;
+
+            function startDrawing(e) {
+                drawing = true;
+                draw(e);
+            }
+
+            function stopDrawing() {
+                drawing = false;
+                context.beginPath();
+            }
+
+            function draw(e) {
+                if (!drawing) return;
+
+                context.lineTo(e.clientX - 80, e.clientY); // Adjust the x-coordinate for the menu
+                context.stroke();
+                context.beginPath();
+                context.moveTo(e.clientX - 80, e.clientY);
+            }
+
+            // Event listeners
+            canvas.addEventListener("mousedown", startDrawing);
+            canvas.addEventListener("mouseup", stopDrawing);
+            canvas.addEventListener("mousemove", draw);
+
+            // Color picker event listener
+            colorPicker.addEventListener("input", function() {
+                context.strokeStyle = colorPicker.value;
+            });
+        });
+    </script>
 </body>
 </html>

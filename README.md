@@ -14,11 +14,19 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 - A section with information about me
 
 #### -Added Bug reporting and Suggestions-
-- Inside of the about page there are two links to two google docs where you can report a bugor suggest to add something 
+- Inside of the about page there are two links to two google docs where you can report a bug or suggest to add something 
 
 #### -Moved all social media-
-- All social media hasbeen moved inside of a file called media
+- All social media has been moved inside of a file called media
 ## Credits
+
+### Monkey:
+#### -ThomasValentine:-
+- Roblox game: https://www.roblox.com/games/8040263401/Saumer-Simulator 
+
+### QOTD:
+#### -sirruwijo:-
+- Steam: https://steamcommunity.com/profiles/76561199036038172/
 
 ### Music:
 #### -SaltyBanana & Toby Fox:-
