@@ -69,7 +69,7 @@ var audio;
 function mumkey() {
     var mumkey = document.getElementById("mumkey");
 
-    if (mumkey.style.display === "none") {
+    if (mumkey.style.display = "none") {
         mumkey.style.display = "block";
       } else {
         mumkey.style.display = "none";
