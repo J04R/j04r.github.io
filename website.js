@@ -63,31 +63,3 @@ document.addEventListener("DOMContentLoaded", function() {
         setVolume(0.1); // Adjust the volume to your desired level
     }, 3000);
 });
-
-var audio;
-
-function mumkey() {
-    var mumkey = document.getElementById("mumkey");
-
-    if (mumkey.style.display === "none") {
-        mumkey.style.display = "block";
-      } else {
-        mumkey.style.display = "none";
-}
-
-    if (!audio || audio.paused) {
-      // Create an Audio object and set the source (URL) of the sound file
-      audio = new Audio('Audio/Tiktok AUGGHHH sound.mp3'); // Replace with the actual path to your sound file
-
-      // Disable the button temporarily to prevent multiple clicks
-      document.getElementById('mumkeybutton').disabled = true;
-
-      // Play the audio
-      audio.play();
-
-      // Set a timeout to re-enable the button after the sound finishes playing
-      setTimeout(function() {
-        document.getElementById('mumkeybutton').disabled = false;
-      }, audio.duration * 1000);
-}
-}
