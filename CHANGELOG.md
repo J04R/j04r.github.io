@@ -1,6 +1,6 @@
 ## Version 1.2.0
 
-### -Added Special Thanks-
+### -Added About section-
 - A section with information about my life
 
 ### -Added Bug reporting and Suggestions-
