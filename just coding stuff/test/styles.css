@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+#gravity-container {
+    position: relative;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.gravity-object {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: move;
+}
