@@ -6,18 +6,6 @@ My main website which lets me and others access everything I upload.
 
 This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). Please review the license file for terms and conditions.
 
-## Updates
-
-### Version 1.2.0
-
-#### -Added Special Thanks-
-- A section with information about my life
-
-#### -Added Bug reporting and Suggestions-
-- Inside of the about page there are two links to two google docs where you can report a bug or suggest to add something 
-
-#### -Moved all social media-
-- All social media has been moved inside of a file called media
 ## Credits
 
 ### Monkey:
