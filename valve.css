@@ -1,0 +1,231 @@
+body {
+    cursor: default;
+    background-image: url(images/valve.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.textcontainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text1 {
+    position: absolute;
+    margin-top: 6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    width: 150px;
+    height: auto;
+}
+
+.halflife {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.halflife2 {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.textc2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text2 {
+    position: relative;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 80%;
+}
+
+.idsoftware {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.textc3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text3 {
+    position: relative;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 80%;
+}
+
+.sierra {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.textc4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text4 {
+    position: relative;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 80%;
+    font-size: 25px;
+}
+
+.textc5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text5 {
+    position: relative;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 80%;
+    font-size: 15px;
+}
+
+.textc6 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text6 {
+    position: relative;
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 80%;
+}
+
+.textc7 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text7 {
+    position: relative;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 80%;
+}
+
+.textc8 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    color: rgba(215,130,46,255);
+    -webkit-text-stroke: 0.5px black;
+    text-align: center;
+}
+
+.text8 {
+    position: relative;
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: auto;
+    font-size: 11px;
+}
+
+.halflife3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+    font-style: italic;
+}
+
+.write {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.official {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.press {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.site {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168,25,11);
+}
+
+.imagecontainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image2 {
+    position: absolute;
+    display: flex;
+    width: 75px;
+    height: auto;
+    margin-bottom: 45px;
+    filter: brightness(60%);
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,3 +1,5 @@
+
+
 function darkenImage(element) {
     element.classList.add('darken');
 }

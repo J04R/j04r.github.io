@@ -1,3 +1,4 @@
+
 var audio = document.getElementById('audioPlayer');
 
 // Check if autoplay is supported
@@ -91,3 +92,4 @@ function mumkey() {
       }, audio.duration * 1000);
 }
 }
+

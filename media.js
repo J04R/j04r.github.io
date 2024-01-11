@@ -1,3 +1,5 @@
+
+
 var audio = document.getElementById('audioPlayer');
 
 // Check if autoplay is supported

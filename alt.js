@@ -1,3 +1,5 @@
+
+
 function getStoredText() {
     return localStorage.getItem('dynamicText') || 'Quote of the day.. or I guess 15 seconds.. By Ruben.';
 }
