@@ -8,3 +8,8 @@
 
 ### -Moved all social media-
 - All social media has been moved inside of a file called media
+
+## Version 1.2.1
+
+### Bugs
+- Fixed some bugs.

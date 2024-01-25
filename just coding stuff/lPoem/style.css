@@ -1,0 +1,60 @@
+body {
+    background-image: url(ImgandAud/360_F_407843733_Njgmfvvr0yY3mjeXMW0265MbjfLePGAc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'a'; /* Choose a name for your font */
+    src: url('ImgandAud/MB-An_Old_Witch.ttf') format('truetype'); /* Update the path and format based on your font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: 'a';
+    font-size: 30px;
+  }
+  
+  .textslot {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+.textslot2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+.text2s1 {
+    display: flex;
+    position: relative;
+}
+
+.textslot p,
+.textslot2 p,
+.textslot3 p,
+.textslot4 p,
+.textslot5 p,
+.textslot6 p,
+.textslot7 p,
+.textslot8 p {
+    margin-bottom: 3px; /* Adjust the value as needed */
+}

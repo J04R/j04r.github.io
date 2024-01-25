@@ -1,0 +1,78 @@
+body {
+    background-image: url(images/Smashburger-Feature.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: monospace;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    width: 400px;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    width: 300px;
+    text-align: center;
+}
+
+.text2 {
+    margin-top: -5px;
+}
+
+.text4 {
+    margin-top: 1px;
+}
+
+.p1 {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.pt1,
+.pt2,
+.pt3,
+.pt4,
+.pt5,
+.pt6,
+.pt7,
+.pt8 {
+    width: 300px;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.pt21,
+.pt22,
+.pt23,
+.pt24,
+.pt25,
+.pt26,
+.pt27,
+.pt28,
+.pt29 {
+    text-align: center;
+}
+
+.endtext {
+    text-align: center;
+    font-family: monospace;
+}
