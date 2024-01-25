@@ -1,35 +1,42 @@
 body {
-    background-image: url(images/scale.jpg);
+    background-image: url(images2/scale.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.sidenav { 
+.sidenav {
     display: flex;
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 200px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 200px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: lightblue; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: lightblue;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
     padding-top: 20px;
     color: indigo;
     flex-direction: column;
-  }
+}
 
-  .recipes {
+.recipes {
     display: none;
-  }
+}
 
-  .socials {
+.socials {
     display: none;
-  }
+}
 
-  .recipebox {
+.recipebox {
     display: flex;
     cursor: pointer;
     font-size: 40px;
@@ -38,9 +45,9 @@ body {
     -webkit-text-stroke: 1px aquamarine;
     background-color: lightblue;
     border: none;
-  }
+}
 
-  .socialbox {
+.socialbox {
     display: flex;
     cursor: pointer;
     font-size: 40px;
@@ -49,13 +56,13 @@ body {
     -webkit-text-stroke: 1px aquamarine;
     background-color: lightblue;
     border: none;
-  }
+}
 
-  .change {
+.change {
     display: block;
-  }
+}
 
-  .smashburger {
+.smashburger {
     display: flex;
     cursor: pointer;
     font-size: 30px;
@@ -64,9 +71,9 @@ body {
     -webkit-text-stroke: 0.25px aquamarine;
     background-color: lightblue;
     border: none;
-  }
+}
 
-  .svampsoppa {
+.svampsoppa {
     display: flex;
     cursor: pointer;
     font-size: 30px;
@@ -75,9 +82,9 @@ body {
     -webkit-text-stroke: 0.25px aquamarine;
     background-color: lightblue;
     border: none;
-  }
+}
 
-  .youtube {
+.youtube {
     display: flex;
     cursor: pointer;
     font-size: 30px;
@@ -86,9 +93,9 @@ body {
     -webkit-text-stroke: 0.25px aquamarine;
     background-color: lightblue;
     border: none;
-  }
+}
 
-  .discord {
+.discord {
     display: flex;
     cursor: pointer;
     font-size: 30px;
@@ -97,4 +104,12 @@ body {
     -webkit-text-stroke: 0.25px aquamarine;
     background-color: lightblue;
     border: none;
-  }
+}
+
+.book {
+    text-align: center;
+    top: 0;
+    font-size: 55px;
+    font-family: monospace;
+    -webkit-text-stroke: 0.8px aquamarine;
+}
