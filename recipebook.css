@@ -170,9 +170,9 @@ body {
 
   @media screen and (max-width: 750px) {
     #book {
-      font-size: 40px; /* Adjust this value as needed */
+      font-size: 25px; /* Adjust this value as needed */
       padding-right: 100px;
-      margin-left: 70%;
+      margin-left: 75%;
       transition: font-size 1s ease;
       text-align: center;
     }
@@ -181,7 +181,14 @@ body {
   @media screen and (max-width: 750px) {
     #sidenav,
     .recipes {
-      width: 300px; /* Adjust this value as needed */
+      width: 270px; /* Adjust this value as needed */
+      transition: width 1s ease-in-out;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+.back {
+      width: 70px; /* Adjust this value as needed */
       transition: width 1s ease-in-out;
     }
   }

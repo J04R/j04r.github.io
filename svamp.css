@@ -81,5 +81,7 @@ body {
 @media screen and (max-width: 750px) {
     .sidebar {
 width: 350px;
+font-size: 85%;
+height: 1000px;
     }
   }
