@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1 class="book">The JO4R Recipe Book</h1>
+    <h1 class="book" id="book">The JO4R Recipe Book</h1>
     <div class="sidenav">
         <button class="recipebox" onclick="showRecipes()">Recipes</button>
         <div class="recipes" id="recipes">
@@ -24,6 +24,7 @@
             <button class="discord" onclick="discord()">Discord</button>
         </div>
     </div>
+    <img src="Audio/back.png" class="back clickable" onclick="backlink()" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" alt="">
 </body>
 
 </html>

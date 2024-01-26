@@ -40,3 +40,15 @@ function showRecipes() {
   function youtube() {
     window.open("https://www.youtube.com/channel/UCObs67mc5ReTaED39vs6u7w", "_blank");
   }
+
+  function darkenImage(element) {
+    element.classList.add('darken');
+}
+
+function resetImage(element) {
+    element.classList.remove('darken');
+}
+
+function backlink() {
+  window.open("index.html", "_self")
+}

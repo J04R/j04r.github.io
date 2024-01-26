@@ -36,6 +36,10 @@ function thankslink() {
     window.open("thanks.html", "_self");
 }
 
+function recipeslink() {
+    window.open("recipebook.html", "_self")
+}
+
 function darkenImage(element) {
     element.classList.add('darken');
 }

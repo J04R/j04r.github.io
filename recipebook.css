@@ -6,6 +6,10 @@ body {
     background-attachment: fixed;
 }
 
+.darken {
+    filter: brightness(80%);
+}
+
 .sidenav {
     display: flex;
     height: 100%;
@@ -107,9 +111,95 @@ body {
 }
 
 .book {
-    text-align: center;
+    text-align: end;
     top: 0;
-    font-size: 55px;
+    font-size: 80px;
     font-family: monospace;
     -webkit-text-stroke: 0.8px aquamarine;
+    padding-left: 1px;
 }
+
+.back {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    #book {
+      font-size: 73px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+@media screen and (max-width: 1100px) {
+    #book {
+      font-size: 67px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    #book {
+      font-size: 62px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    #book {
+      font-size: 55px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    #book {
+      font-size: 45px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    #book {
+      font-size: 35px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #book {
+      font-size: 27px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    #book {
+      font-size: 22px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #book {
+      font-size: 30px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    #book {
+      font-size: 30px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+    #book {
+      font-size: 30px; /* Adjust this value as needed */
+      transition: font-size 1s ease;
+    }
+  }
