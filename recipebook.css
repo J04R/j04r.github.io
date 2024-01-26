@@ -141,65 +141,47 @@ body {
     }
   }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
     #book {
       font-size: 62px; /* Adjust this value as needed */
+      margin-left: 70%;
       transition: font-size 1s ease;
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 850px) {
     #book {
       font-size: 55px; /* Adjust this value as needed */
+      margin-left: 70%;
       transition: font-size 1s ease;
+      text-align: center;
     }
   }
 
   @media screen and (max-width: 800px) {
     #book {
-      font-size: 45px; /* Adjust this value as needed */
+      font-size: 50px; /* Adjust this value as needed */
+      padding-right: 100px;
+      margin-left: 70%;
       transition: font-size 1s ease;
+      text-align: center;
     }
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 750px) {
     #book {
-      font-size: 35px; /* Adjust this value as needed */
+      font-size: 40px; /* Adjust this value as needed */
+      padding-right: 100px;
+      margin-left: 70%;
       transition: font-size 1s ease;
+      text-align: center;
     }
   }
 
-  @media screen and (max-width: 600px) {
-    #book {
-      font-size: 27px; /* Adjust this value as needed */
-      transition: font-size 1s ease;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    #book {
-      font-size: 22px; /* Adjust this value as needed */
-      transition: font-size 1s ease;
-    }
-  }
-
-  @media screen and (max-width: 400px) {
-    #book {
-      font-size: 30px; /* Adjust this value as needed */
-      transition: font-size 1s ease;
-    }
-  }
-
-  @media screen and (max-width: 300px) {
-    #book {
-      font-size: 30px; /* Adjust this value as needed */
-      transition: font-size 1s ease;
-    }
-  }
-
-  @media screen and (max-width: 200px) {
-    #book {
-      font-size: 30px; /* Adjust this value as needed */
-      transition: font-size 1s ease;
+  @media screen and (max-width: 750px) {
+    #sidenav,
+    .recipes {
+      width: 300px; /* Adjust this value as needed */
+      transition: width 1s ease-in-out;
     }
   }

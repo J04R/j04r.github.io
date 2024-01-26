@@ -77,3 +77,9 @@ body {
     text-align: center;
     font-family: monospace;
 }
+
+@media screen and (max-width: 750px) {
+    .sidebar {
+width: 350px;
+    }
+  }
