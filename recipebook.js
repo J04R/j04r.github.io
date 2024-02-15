@@ -50,5 +50,5 @@ function resetImage(element) {
 }
 
 function backlink() {
-  window.open("index.html", "_self")
+  window.open("websites.html", "_self")
 }

@@ -6,6 +6,10 @@ body {
     background-attachment: fixed;
 }
 
+.darken {
+    filter: brightness(80%);
+}
+
 .textcontainer {
     display: flex;
     justify-content: center;
@@ -32,6 +36,14 @@ body {
     display: flex;
     width: 150px;
     height: auto;
+}
+
+.back {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    width: 100px;
 }
 
 .halflife {
@@ -229,3 +241,10 @@ body {
 .title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+@media screen and (max-width: 750px) {
+    .back {
+          width: 70px; /* Adjust this value as needed */
+          transition: width 1s ease-in-out;
+        }
+      }

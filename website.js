@@ -1,3 +1,36 @@
+var isPlaying = false;
+
+// Function to play the sound
+function playSound() {
+    if (!isPlaying) {
+        var audio = document.getElementById("audiofart");
+        audio.currentTime = 0;
+        audio.play();
+        isPlaying = true;
+
+        // Event listener to reset isPlaying when audio finishes playing
+        audio.addEventListener('ended', function() {
+            isPlaying = false;
+        });
+    }
+}
+
+// Event listener for keydown event
+document.addEventListener("keydown", function(event) {
+    // Check if the key pressed is 'f'
+    if (event.key === "f") {
+        // Call the playSound function
+        playSound();
+    }
+});
+
+// Event listener for keyup event (to reset isPlaying when key is released)
+document.addEventListener("keyup", function(event) {
+    // Check if the key released is 'f'
+    if (event.key === "f") {
+        isPlaying = false;
+    }
+});
 
 var audio = document.getElementById('audioPlayer');
 
@@ -34,10 +67,6 @@ function websiteslink() {
 
 function thankslink() {
     window.open("thanks.html", "_self");
-}
-
-function recipeslink() {
-    window.open("recipebook.html", "_self")
 }
 
 function darkenImage(element) {

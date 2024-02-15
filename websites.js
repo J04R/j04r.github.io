@@ -1,12 +1,11 @@
 
 
 function thetest() {
-    window.open("test/test.html", "_blank")
-    window.open("test/test.html", "_blank");
+    window.open("valve.html", "_self")
 }
 
 function dvdscr() {
-    window.open("dvdscr.html", "_blank")
+    window.open("recipebook.html", "_self")
 }
 
 function darkenImage(element) {
