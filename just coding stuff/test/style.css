@@ -1,0 +1,108 @@
+body {
+  display: grid;
+  grid-template-columns: 20% auto;
+    background-image: url(images/WIN_20240222_09_07_32_Pro.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: initial;
+}
+
+.sidenav {  
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+} 
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainblog {
+  display: none;
+  text-align: center;
+  background-color: antiquewhite;
+  width: 500px;
+  }
+
+  .mainblog2 {
+    display: none;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 500px;
+    }
+
+.blogas {
+  display: none;
+  width: 160px;
+}
+
+.contact {
+  display: none;
+  width: 160px;
+}
+
+.show {
+    display: block;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.boar {
+    width: 500px;
+    margin-bottom: 10%;
+}
+
+  /* The navigation menu links */
+  .sidenav .blogs, .contacts, .blog1, .blog2, .contact1, .contact2 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #aaaaaa;
+    display: block;
+    -webkit-text-stroke: #000000 0.5px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .blog2 {
+    display: flex;
+    font-size: 21px;
+  }
+  
+  .blogs {
+    font-size: 35px;
+  }
+
+  .contacts {
+    font-size: 35px;
+  }
+
+  .blog1 {
+    display: flex;
+    font-size: 21px;
+  }
+
+  .contact1 {
+    display: flex;
+    font-size: 21px;
+  }
+
+  .contact2 {
+    display: flex;
+    font-size: 21px;
+}

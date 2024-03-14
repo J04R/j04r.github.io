@@ -1,0 +1,38 @@
+body {
+    cursor: default;
+    display: flex;
+    background-image: url('Audio/pixil-gif-drawing\ \(2\).gif');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    justify-content: center;
+    margin: 0;
+}
+
+.audioman {
+    display: none;
+}
+
+.darken {
+    filter: brightness(80%);
+}
+
+
+.albn {
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 32%;
+    bottom: 50%;
+}
+
+.tamas {
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 32%;
+    bottom: 50%;
+}
+

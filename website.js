@@ -66,7 +66,30 @@ function websiteslink() {
 }
 
 function thankslink() {
-    window.open("thanks.html", "_self");
+    var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+    var token = generateToken();
+
+    sessionStorage.setItem("secretToken", token);
+    
+    // Check if the random number is 1 (1% chance)
+    if (randomNumber > 50) {
+        // Redirect to the secret website
+        window.location.href = "secret.html?token=dog23";
+    } else {
+        // Otherwise, do something else (e.g., navigate to another part of the site)
+        window.location.href = "thanks.html";
+    }
+}
+
+function generateToken() {
+    // Generate a random string for the token
+    var characters = 'dog23';
+    var token = 'dog23';
+    for (var i = 0; i < 20; i++) {
+        token += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return token;
 }
 
 function darkenImage(element) {
@@ -75,6 +98,10 @@ function darkenImage(element) {
 
 function resetImage(element) {
     element.classList.remove('darken');
+}
+
+function friendslink() {
+    window.open("friends.html", "_self")
 }
 
 function rubenTime() {
