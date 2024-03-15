@@ -3,7 +3,9 @@ body {
     color: #5E5D55;
     text-align: center;
 }
-.img1, .img2 {
+
+.img1,
+.img2 {
     cursor: pointer;
     width: 200px;
     height: 100px;

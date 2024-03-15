@@ -30,6 +30,7 @@ body {
 }
 
 .back {
+    cursor: pointer;
     position: absolute;
     align-items: start start;
     margin-right: 20px;

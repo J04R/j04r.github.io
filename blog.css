@@ -1,10 +1,18 @@
 body {
   display: grid;
   grid-template-columns: 20% auto;
-    background-image: url(images/WIN_20240222_09_07_32_Pro.jpg);
+    background-image: url(images3/WIN_20240222_09_07_32_Pro.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: initial;
+}
+
+.darken {
+  filter: brightness(80%);
+}
+
+.audioman {
+  display: none;
 }
 
 .sidenav {  
@@ -105,4 +113,11 @@ body {
   .contact2 {
     display: flex;
     font-size: 21px;
+}
+
+.back {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

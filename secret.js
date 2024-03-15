@@ -15,3 +15,25 @@ function isValidToken(token) {
     // This is just a placeholder function, you should replace it with your own logic
     return true; // Placeholder, replace with your own validation logic
 }
+
+var audio = document.getElementById('audioPlayer');
+
+// Check if autoplay is supported
+var isAutoplaySupported = audio.autoplay !== undefined;
+
+if (isAutoplaySupported) {
+  audio.play();
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const audioPlayer = document.getElementById("audioPlayer");
+  
+    // Set initial volume
+    audioPlayer.volume = 0.3; // You can set this to any value between 0.0 and 1.0
+  
+    // Function to adjust the volume (0.0 to 1.0)
+    function setVolume(volume) {
+        audioPlayer.volume = volume;
+    }
+  }
+  )

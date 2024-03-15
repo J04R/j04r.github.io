@@ -36,3 +36,6 @@ body {
     bottom: 50%;
 }
 
+.back {
+    cursor: pointer;
+}

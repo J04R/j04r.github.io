@@ -13,3 +13,14 @@
 
 ### Bugs
 - Fixed some bugs.
+
+## Version 1.4
+
+### New content!
+- Added lots of new things!
+
+### Bugs
+-Fixed a lot of bugs. som of which were the volume of the background music.
+
+### ???
+- ???

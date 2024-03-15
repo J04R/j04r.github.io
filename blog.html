@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BoarBlogs</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="shortcut icon" href="images/joarstare.png" type="image/x-icon">
+    <link rel="stylesheet" href="blog.css">
+    <script src="blog.js"></script>
+    <link rel="icon" href="Audio/fgggg.png" type="image/x-icon">
 </head>
 
 <body>
@@ -24,9 +24,11 @@
         </div>
     </div>
 
+    
+
     <div class="main">
         <div class="imagecontainer">
-            <img class="boar" src="images/bfeea62195ea3d3f4765ae655a9501ce.png" alt="">
+            <img class="boar" src="images3/bfeea62195ea3d3f4765ae655a9501ce.png" alt="">
         </div>
 
         <div id="mainblog" class="mainblog">
@@ -47,6 +49,14 @@
             <h4>FUCK YOU!</h4>
         </div>
     </div>
+
+    <img class="back clickable" id="back" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="Audio/back.png"
+    alt="" onclick="back()" style="width: 100px; height: 50px;">
+    <div class="container">
+        <audio controls autoplay preload="auto" loop volume="0.1" class="audioman" id="audioPlayer">
+           <source src="Audio/Bloopin.mp3" type="audio/mp3">
+        </audio>
+     </div>
 </body>
 
 </html>
