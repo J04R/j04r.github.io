@@ -17,10 +17,12 @@ This project is licensed under the [J04R Code Usage License v1.0](LICENSE.md). P
 - Steam: https://steamcommunity.com/profiles/76561199036038172/
 
 ### Music:
-#### -SaltyBanana & Toby Fox:-
- - [spamton] Chill Remix > https://www.youtube.com/watch?v=T005czdQ9Oo
-#### -temtorrance & Toby Fox:-
- - V A P O R W A V E ~ Rouxls kaard hip shop - Deltarune OST > https://www.youtube.com/watch?v=Ag1xkddZ0gM
+#### -Uglyburger0 & Fishcracks:-
+- Friday Theme (Fishcracks Remix) > https://www.youtube.com/watch?v=nnfkwdfYcDI
+#### -lvusm:-
+- Meow > https://www.youtube.com/watch?v=cwyTleTL06Y&t=20s
+#### -j1gggs:-
+- the cat from ipanema > https://www.youtube.com/watch?v=dg4dmNvxdu0
 #### -Toby Fox:-
  - Undertale OST - Menu (full) > https://youtu.be/J_hJDitrh8M?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc
  - Undertale OST - Home > https://youtu.be/q2IYscs_8uY?list=OLAK5uy_l6pEkEJgy577R-aDlJ3Gkp5rmlgIOu8bc

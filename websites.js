@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const audioPlayer = document.getElementById("audioPlayer");
   
     // Set initial volume
-    audioPlayer.volume = 0.6; // You can set this to any value between 0.0 and 1.0
+    audioPlayer.volume = 0.5; // You can set this to any value between 0.0 and 1.0
   
     // Function to adjust the volume (0.0 to 1.0)
     function setVolume(volume) {
