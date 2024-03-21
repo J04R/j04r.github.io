@@ -72,6 +72,23 @@ function blogas() {
     }
 }
 
+function interests() {
+    var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+    var token = generateToken();
+  
+    sessionStorage.setItem("secretToken", token);
+    
+    // Check if the random number is 1 (1% chance)
+    if (randomNumber === 23) {
+        // Redirect to the secret website
+        window.location.href = "23.html?token=dog23";
+    } else {
+        // Otherwise, do something else (e.g., navigate to another part of the site)
+        window.location.href = "movie.html";
+    }
+}
+
 // Function to remove "darken" class on mouseout
 function resetImage(element) {
     element.classList.remove('darken');

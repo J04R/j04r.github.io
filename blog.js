@@ -1,6 +1,7 @@
 var x = 0;
 var y = 4;
 var z = 2;
+var a = 6;
 
 function darkenImage(element) {
   element.classList.add('darken');
@@ -14,7 +15,10 @@ function showHate() {
   if (x == 0) {
       document.getElementById("mainblog").classList.add("show");
       document.getElementById("mainblog2").classList.remove("show")
+      a = 6;
       x = 1;
+      y = 4;
+      z = 2;
     } else {
       document.getElementById("mainblog").classList.remove("show");
 
@@ -26,7 +30,10 @@ function showFrance() {
   if (y == 4) {
     document.getElementById("mainblog2").classList.add("show");
     document.getElementById("mainblog").classList.remove("show")
+    a = 6;
     y = 5;
+    z = 2;
+    x = 0;
   } else {
     document.getElementById("mainblog2").classList.remove("show");
     y = 4;
@@ -36,7 +43,10 @@ function showFrance() {
 function showBlogs() {
     if (z == 2) {
         document.getElementById("blogas").classList.add("show");
+        a = 6;
         z = 3;
+        y = 4;
+        x = 0;
       } else {
         document.getElementById("blogas").classList.remove("show");
         z = 2;
@@ -44,12 +54,15 @@ function showBlogs() {
     }
 
 function showContacts() {
-  if (z == 2) {
+  if (a == 6) {
     document.getElementById("contact").classList.add("show");
-    z = 3;
+    a = 7; 
+    z = 2;
+    y = 4;
+    x = 0;
   } else {
     document.getElementById("contact").classList.remove("show");
-    z = 2;
+    a = 6;
   }
 }
 

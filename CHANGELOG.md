@@ -24,3 +24,11 @@
 
 ### ???
 - ???
+
+## Version 1.4.5
+
+### New content!
+- Added a new website!
+
+### Bugs
+- Fixed more bugs including: Background image weirdly placed. Buttons doing the wrong things.

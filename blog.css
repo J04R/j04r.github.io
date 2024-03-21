@@ -1,9 +1,9 @@
 body {
   display: grid;
   grid-template-columns: 20% auto;
-    background-image: url(images3/WIN_20240222_09_07_32_Pro.jpg);
+    background-image: url(images/WIN_20240222_09_07_32_Pro.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: initial;
 }
 

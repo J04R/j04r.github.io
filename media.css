@@ -1,7 +1,7 @@
 body {
     cursor: default;
     display: flex;
-    background-image: url('Audio/pixil-gif-drawing\ \(2\).gif'); /* Add the path to your GIF */
+    background-image: url('images/pixil-gif-drawing\ \(2\).gif'); /* Add the path to your GIF */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
