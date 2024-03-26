@@ -17,28 +17,14 @@
     <style>
         body {
             cursor: default;
-            background-image: url('images/ezgif-1-3e81517b1f.gif');
-            /* Add the path to your GIF */
-            background-size: cover;
-            background-position: center center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
+            background-color: black;
         }
+
+        @font-face { font-family: Monster; src: url('fonts/MonsterFriendFore.otf'); } 
+        @font-face { font-family: Monster; font-weight: bold; src: url('fonts/MonsterFriendFore.otf');}
 
         .audioman {
             display: none;
-        }
-
-        .thanks {
-            margin-top: 3%;
-            margin-right: 60%;
-            padding: 4px;
-            border: 2px solid rgb(41, 40, 40);
-            color: rgb(0, 0, 0);
-            border-radius: 20px;
-            background-color: rgb(106, 106, 106);
-            font-size: 11px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
         .darken {
@@ -52,70 +38,72 @@
             top: 0;
         }
 
-        .cat {
-            position: absolute;
-            display: block;
-            bottom: 0px;
-            right: 0px;
-            width: 20%;
+        .thanks {
+            display: grid;
+            grid-template-rows: 33% 33% 33%;
+            grid-template-columns: 25% 25% 25% 25%;
+            margin-top: 150px;
+            min-width: 100px;;
         }
 
-        @media (min-width: 100%) {
-            #thanks {
-            font-size: 100%;
-        }
+        @media (max-width: 1200px) 
+ {
+    .thanks
+    {
+        font-size: 20px;
+        text-align: center;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 25%;
     }
+ }
 
-    @media (min-width: 100%) {
-        #cat {
-            width: 30%;
-            height: auto;
-        }
+ @media (max-width: 1000px) 
+ {
+    .thanks
+    {
+        font-size: 20px;
+        text-align: center;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20%;
     }
+ }
 
-    @media (max-width: 1000px) {
-            #thanks {
-            font-size: 50%;
-        }
+ @media (max-width: 700px) 
+ {
+    .thanks
+    {
+        font-size: 20px;
+        text-align: center;
+        grid-template-columns: 100%;
+        grid-template-rows: 10%;
     }
+ }
 
-    @media (max-width: 600px) {
-            #thanks {
-            font-size: 6px;
+        .text {
+            display: grid;
+            font-family: Monster, sans-serif;
+            color: azure;
+            width: 300px;
+            text-align: center;
         }
-    }
 
-    @media (max-width: 300px) {
-            #thanks {
-            font-size: 5px;
-        }
-    }
     </style>
     <div class="thanks" id="thanks">
-        <h1>Special thanks to everyone who supports me and my career choices!</h1>
-        <h2>Friends:</h2>
-        <h3>Ruben</h3>
-        <h3>William</h3>
-        <h3>Caroline</h3>
-        <h3>Nils</h3>
-        <h3>Johannes</h3>
-        <h3>Neo</h3>
-        <h3>Linus</h3>
-        <h3>Lilly</h3>
-        <h2>Family:</h2>
-        <h3>My mother</h3>
-        <h3>My father</h3>
-        <h3>My step-father</h3>
-        <h3>My step-brother</h3>
-        <h3>My cousin</h3>
-        <h2>Teachers:</h2>
-        <h3>Elias</h3>
-        <h3>Jens</h3>
+        <h1 class="text">Thomas</h1>
+        <h1 class="text">Elias</h1>
+        <h1 class="text">Caroline</h1>
+        <h1 class="text">Ruben</h1>
+        <h1 class="text">Nils</h1>
+        <h1 class="text">Johannes</h1>
+        <h1 class="text">Alvin</h1>
+        <h1 class="text">Teacher Elias</h1>
+        <h1 class="text">Teacher Jens</h1>
+        <h1 class="text">My Father</h1>
+        <h1 class="text">My Mother</h1>
     </div>
 
     <img class="back clickable" id="back" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="images/back.png"
         alt="" onclick="back()" style="width: 100px; height: 50px;">
-        <img class="cat" id="cat" src="images/4x.gif" alt="">
     <script>
           var audio = document.getElementById('audioPlayer');
 
