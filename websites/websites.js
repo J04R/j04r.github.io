@@ -30,7 +30,7 @@ function dvdscr() {
         window.location.href = "../23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "repicebook/recipebook.html";
+        window.location.href = "recipebook/recipebook.html";
     }
 }
 
