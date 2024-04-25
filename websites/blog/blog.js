@@ -89,10 +89,10 @@ function back() {
   // Check if the random number is 1 (1% chance)
   if (randomNumber === 23) {
       // Redirect to the secret website
-      window.location.href = "23.html?token=dog23";
+      window.location.href = "../23.html?token=dog23";
   } else {
       // Otherwise, do something else (e.g., navigate to another part of the site)
-      window.location.href = "websites.html";
+      window.location.href = "../websites.html";
   }
 }
 

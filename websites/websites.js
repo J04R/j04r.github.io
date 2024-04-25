@@ -10,10 +10,10 @@ function thetest() {
     // Check if the random number is 1 (1% chance)
     if (randomNumber === 23) {
         // Redirect to the secret website
-        window.location.href = "23.html?token=dog23";
+        window.location.href = "../23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "valve.html";
+        window.location.href = "valve/valve.html";
     }
 }
 
@@ -27,10 +27,10 @@ function dvdscr() {
     // Check if the random number is 1 (1% chance)
     if (randomNumber === 23) {
         // Redirect to the secret website
-        window.location.href = "23.html?token=dog23";
+        window.location.href = "../23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "recipebook.html";
+        window.location.href = "repicebook/recipebook.html";
     }
 }
 
@@ -48,10 +48,10 @@ function back() {
     // Check if the random number is 1 (1% chance)
     if (randomNumber === 23) {
         // Redirect to the secret website
-        window.location.href = "23.html?token=dog23";
+        window.location.href = "../23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     }
 }
 
@@ -65,10 +65,10 @@ function blogas() {
     // Check if the random number is 1 (1% chance)
     if (randomNumber === 23) {
         // Redirect to the secret website
-        window.location.href = "23.html?token=dog23";
+        window.location.href = "../23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "blog.html";
+        window.location.href = "blog/blog.html";
     }
 }
 
@@ -82,10 +82,10 @@ function interests() {
     // Check if the random number is 1 (1% chance)
     if (randomNumber === 23) {
         // Redirect to the secret website
-        window.location.href = "23.html?token=dog23";
+        window.location.href = "../23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "movie.html";
+        window.location.href = "movies/movie.html";
     }
 }
 

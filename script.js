@@ -15,7 +15,7 @@ function aboutlink() {
         window.location.href = "23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "about.html";
+        window.location.href = "about/about.html";
     }
 }
 
@@ -32,7 +32,7 @@ function medialink() {
         window.location.href = "23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "media.html";
+        window.location.href = "media/media.html";
     }
 }
 
@@ -57,7 +57,7 @@ function websiteslink() {
         window.location.href = "23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "websites.html";
+        window.location.href = "websites/websites.html";
     }
 }
 
@@ -109,7 +109,7 @@ function friendslink() {
         window.location.href = "23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "friends.html";
+        window.location.href = "friends/friends.html";
     }
 }
 
@@ -126,7 +126,7 @@ function rubenTime() {
         window.location.href = "23.html?token=dog23";
     } else {
         // Otherwise, do something else (e.g., navigate to another part of the site)
-        window.location.href = "rubo.html";
+        window.location.href = "rubo/rubo.html";
     }
 }
 
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const audioPlayer = document.getElementById("audioPlayer");
   
     // Set initial volume
-    audioPlayer.volume = 0.4; // You can set this to any value between 0.0 and 1.0
+    audioPlayer.volume = 0.6; // You can set this to any value between 0.0 and 1.0
   
     // Function to adjust the volume (0.0 to 1.0)
     function setVolume(volume) {
