@@ -16,15 +16,6 @@ function isValidToken(token) {
     return true; // Placeholder, replace with your own validation logic
 }
 
-var audio = document.getElementById('audioPlayer');
-
-// Check if autoplay is supported
-var isAutoplaySupported = audio.autoplay !== undefined;
-
-if (isAutoplaySupported) {
-  audio.play();
-}
-
 document.addEventListener("DOMContentLoaded", function() {
     const audioPlayer = document.getElementById("audioPlayer");
   
