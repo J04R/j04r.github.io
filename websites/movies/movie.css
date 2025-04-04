@@ -71,7 +71,7 @@ html {
     padding-top: 2vh;
 }
 
-.artists {
+.songs {
     display: none;
     grid-template-columns: 33% 32% 33%;
     grid-template-rows: 33% 33% 33%; 
@@ -79,12 +79,8 @@ html {
     gap: 10px;
 }
 
-.artist1 {
-    background-color: #ffe4c4;
-    border: 3px black solid;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    text-align: center;
+.song1 {
+    height: 500px;
     padding-top: 2vh;
 }
 
