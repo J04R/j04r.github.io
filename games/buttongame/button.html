@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Game</title>
+    <link rel="icon" href="images/ButtonON.png" type="image/x-icon">
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="counter" id="clickCounter">0</div>
+    <div id="buttons" class="buttons">
+    <img id="buttonoff" class="buttonOff" src="images/ButtonOFF.png" onmouseover="darken(this)" onmouseout="remove(this)" alt="">
+    <audio id="soundDown" src="audio/mousedown.mp3"></audio>
+    <audio id="soundUp" src="audio/mosueup.mp3"></audio>
+    </div>
+</body>
+<script src="button.js"></script>
+</html>

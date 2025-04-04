@@ -14,7 +14,7 @@
 ### Bugs
 - Fixed some bugs.
 
-## Version 1.4
+## Version 1.3
 
 ### New content!
 - Added lots of new things!
@@ -25,7 +25,7 @@
 ### ???
 - ???
 
-## Version 1.4.5
+## Version 1.3.5
 
 ### New content!
 - Added a new website!
