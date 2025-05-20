@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media</title>
-    <link rel="stylesheet" href="media.css">
-    <link rel="icon" href="images/wide.png" type="image/x-icon">
-    <script src="media.js"></script>
-</head>
-<body>
-    <div class="container">
-        <audio controls autoplay preload="auto" loop volume="0.1" class="audioman" id="audioPlayer">
-           <source src="audio/cat.mp3" type="audio/mp3">
-        </audio>
-     </div>
-    <div class="main-align">
-    <div class="main-right-align" id="main-right-align">
-        <img class="twitterlink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
-           onclick="twitterlink()" src="images/twit.png" style="width: 200px; height: 100px;" alt="" srcset="">
-        <img class="projectlink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
-           onclick="projectslink()" src="images/github.png" style="width: 200px; height: 100px;" alt="" srcset="">
-        <img class="websitelink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
-           onclick="discordlink()" src="images/discord.png" style="width: 200px; height: 100px;" alt="" srcset="">
-     </div>
 
-    <div class="main-left-align" id="main-left-align">
-        <img class="steamlink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
-           onclick="steamlink()" src="images/steamy.png" style="width: 200px; height: 100px;" alt="" srcset="">
-        <img class="youtubelink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
-           onclick="youtubelink()" src="images/yt.png" style="width: 200px; height: 100px;" alt="" srcset="">
-        <img class="redditlink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
-           onclick="redditlink()" src="images/reddit.png" style="width: 200px; height: 100px;" alt="" srcset="">
-     </div>
-     </div>
-     <img class="back clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="images/back.png" alt=""
-     onclick="back()" style="width: 100px; height: 50px;">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Media</title>
+   <link rel="stylesheet" href="media.css">
+   <link rel="icon" href="images/wide.png" type="image/x-icon">
+   <script src="media.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <audio controls autoplay preload="auto" loop volume="0.1" class="audioman" id="audioPlayer">
+         <source src="audio/cat.mp3" type="audio/mp3">
+      </audio>
+   </div>
+   <div class="main-align">
+      <div class="main-right-align" id="main-right-align">
+         <img class="twitterlink clickable" src="images/blANK.png" onmouseover="darkenImage(this)"
+            onmouseout="resetImage(this)" style="width: 200px; height: 100px;" alt="" srcset="">
+         <img class="projectlink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
+            onclick="projectslink()" src="images/github.png" style="width: 200px; height: 100px;" alt="" srcset="">
+         <img class="websitelink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
+            onclick="discordlink()" src="images/discord.png" style="width: 200px; height: 100px;" alt="" srcset="">
+      </div>
+
+      <div class="main-left-align" id="main-left-align">
+         <img class="redditlink clickable" src="images/blANK.png" onmouseover="darkenImage(this)"
+            onmouseout="resetImage(this)" style="width: 200px; height: 100px;" alt="" srcset="">
+         <img class="steamlink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
+            onclick="steamlink()" src="images/steamy.png" style="width: 200px; height: 100px;" alt="" srcset="">
+         <img class="youtubelink clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)"
+            onclick="youtubelink()" src="images/yt.png" style="width: 200px; height: 100px;" alt="" srcset="">
+      </div>
+   </div>
+   <img class="back clickable" onmouseover="darkenImage(this)" onmouseout="resetImage(this)" src="images/back.png"
+      alt="" onclick="back()" style="width: 100px; height: 50px;">
 </body>
+
 </html>

@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-.audioman {
+.audioman { 
     display: none;
 }
 
@@ -173,5 +173,4 @@ body {
     cursor: pointer;
     filter: brightness(60%);
 }
-
 
