@@ -1,7 +1,7 @@
 body {
     cursor: default;
     display: flex;
-    background-image: url('images/pixil-gif-drawing\ \(2\).gif');
+    background-image: url('images/1zfb.gif');
     /* Add the path to your GIF */
     background-size: cover;
     background-position: center center;
@@ -50,6 +50,7 @@ body {
     width: auto;
     height: auto;
     transition: width 0.5s ease, height 0.5s ease;
+    filter: grayscale(70%) brightness(90%) contrast(90%);
     /* Add a smooth transition effect */
 }
 
@@ -116,6 +117,8 @@ body {
     max-width: 100%;
     max-height: 100px;
     transition: width 0.5s ease, height 0.5s ease;
+    filter: grayscale(50%);
+    filter: brightness(70%);
     /* Add a smooth transition effect for both width and height */
 }
 
